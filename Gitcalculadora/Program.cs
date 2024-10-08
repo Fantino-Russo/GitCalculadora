@@ -45,7 +45,7 @@ do
             case "/":
                 if (num2 == 0)
                 {
-                    Console.WriteLine("Divicion por 0 es imposible");
+                    Console.WriteLine("Division por 0 es imposible");
                     invalido = true;
                 }
                 else
