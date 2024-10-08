@@ -44,7 +44,7 @@ do
         switch (operador)
         {
             case "+":
-                resultado = Suma(resultado, numeros[i]);
+                resultado = Addicion(resultado, numeros[i]);
                 break;
             case "-":
                 resultado = Resta(resultado, numeros[i]);
@@ -87,7 +87,7 @@ do
 } while (seguir == 1);
 Console.WriteLine("Finalizando, Gracias por utilizar la calculadora");
 
-float Suma(float n1, float n2)
+float Addicion(float n1, float n2)
 {
 
     return n1 += n2;
