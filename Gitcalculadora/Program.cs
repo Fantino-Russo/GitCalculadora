@@ -4,7 +4,7 @@ float num2 = 0;
 bool invalido = false;
 int seguir = 2;
 
-Console.WriteLine("Bienvenido a la calculadora!");
+Console.WriteLine("Bienvenido a la calculadora de github!");
 
 do
 {
