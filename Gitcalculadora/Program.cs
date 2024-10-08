@@ -22,21 +22,10 @@ do
         Console.WriteLine($"Ingrese el numero {i + 1} que desea añadir al calculo: ");
         num1 = Convert.ToInt32(Console.ReadLine());
 
-        //Console.WriteLine("Ingrese el siguiente numero: ");
-        //num2 = Convert.ToInt32(Console.ReadLine());
+        
         numeros.Add(num1);
     }
-    //if (seguir != 1)
-    //{
-    //    Console.WriteLine("Para comenzar ingrese el primer numero: ");
-    //    num1 = Convert.ToInt32(Console.ReadLine());
-    //}
-    //else
-    //{
-    //    num1 = resultado;
-    //}
-    //Console.WriteLine("Ingrese el siguiente numero: ");
-    //num2 = Convert.ToInt32(Console.ReadLine());
+   
     Console.WriteLine("Ingrese el operador que va a utilizar: ");
     string operador = Console.ReadLine();
     resultado = numeros[0];
